@@ -1,0 +1,33 @@
+What are Operators?
+ ->Symbols used to perform operations on variables
+ Example: int c = a + b;
+
+
+Arithmetic Operators:
+Operator    Meaning            Example 
+--------    --------------     ------- 
++           Addition           a + b   
+-           Subtraction        a - b   
+*           Multiplication     a * b   
+/           Division           a / b   
+%           Modulus            a % b   
+
+
+Relational Operator:
+Operator    Meaning       
+--------    ----------
+==          equal to      
+!=          not equal     
+>           greater than  
+<           less than     
+>=          greater equal 
+<=          less equal    
+
+
+logical Operator:
+Operator    Meaning        
+--------    ------- 
+&&          AND            
+||          OR 
+!           NOT            
+

@@ -1,0 +1,24 @@
+Output (Printing): Used to display data on screen
+
+System.out.println("Hello");   // prints + new line
+System.out.print("Hello");     // prints in same line
+System.out.printf("Age: %d", 21); // formatted output
+
+✔ Key Points:
+ println() → moves to next line
+ print() → stays on same line
+ printf() → used for formatting
+
+
+
+Input (Taking from User): Use Scanner class
+
+import java.util.Scanner;
+Scanner sc = new Scanner(System.in);
+
+✔ Taking Different Inputs:
+ int a = sc.nextInt();        // integer
+ double d = sc.nextDouble(); // decimal
+ String s = sc.next();       // single word
+ String line = sc.nextLine();// full line
+ char ch = sc.next().charAt(0); // single character
