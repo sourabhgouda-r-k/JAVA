@@ -1,0 +1,18 @@
+1. What is Java?
+ ->Java is a programming language used to build apps, websites, Android apps, etc.
+ ->It follows Write Once, Run Anywhere (WORA) → runs on any system.
+
+Example: You write code once → it runs on Windows, Mac, Linux.
+
+
+Structure of a Java Program: 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+Breakdown:
+ ->class → container of code
+ ->main() → starting point of program
+ ->System.out.println() → prints output
