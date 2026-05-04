@@ -1,0 +1,51 @@
+What are Loops?
+ ->Used to repeat a block of code multiple times
+
+1. for Loop: Used when you know how many times to run
+   Example: 
+   for(int i = 1; i <= 5; i++){
+    System.out.println(i);
+   }
+   Structure: 
+   for(initialization; condition; update)
+
+
+2. while Loop: Used when repetitions depend on a condition
+   Example: 
+   int i = 1;
+    while(i <= 5){
+    System.out.println(i);
+    i++;
+    }
+
+
+3. do-while Loop: Runs at least once, even if condition is false
+   Example:
+   int i = 1;
+    do{
+        System.out.println(i);
+        i++;
+    } while(i <= 5);
+
+4. for-each Loop (Enhanced for): Used for arrays/collections
+   Example: 
+   int arr[] = {1,2,3};
+    for(int num : arr){
+      System.out.println(num);
+    }
+
+
+Loop Control Statement:
+1. break: Stops loop completely
+   Example: 
+   for(int i=1; i<=5; i++){
+       if(i == 3) break;
+       System.out.println(i);
+   }
+
+2. continue: Skips current iteration
+   Example:
+   for(int i=1; i<=5; i++){
+    if(i == 3) continue;
+    System.out.println(i);
+    }

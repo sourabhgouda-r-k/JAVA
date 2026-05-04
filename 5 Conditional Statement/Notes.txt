@@ -1,0 +1,51 @@
+What are Conditional Statements?
+ ->Used to make decisions in a program
+
+
+1. if Statement: Executes block only if condition is true
+   Example: 
+   if(age > 18){
+      System.out.println("Adult");
+    }
+
+
+2. if-else: Two choices 
+   Example:
+     if(age > 18){
+      System.out.println("Adult");
+  } else {
+      System.out.println("Minor");
+  }
+
+
+3. else-if Ladder: Multiple conditions
+   Example:
+      if(marks >= 90){
+       System.out.println("A");
+   } else if(marks >= 75){   
+    System.out.println("B");
+   } else if(marks >= 50){   
+    System.out.println("C");
+   } else {   
+    System.out.println("Fail");
+   }
+
+
+4. Nested if: if inside another if
+   if(age > 18){
+    if(age < 25){
+        System.out.println("Young Adult");
+    }
+  }
+
+
+5. Switch Statement: Used when checking multiple fixed values
+   Example: 
+   int day = 2;
+
+   switch(day){
+    case 1: System.out.println("Monday"); break;
+    case 2: System.out.println("Tuesday"); break;
+    default: System.out.println("Invalid");
+   }
+
