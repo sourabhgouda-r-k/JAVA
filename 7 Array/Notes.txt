@@ -1,0 +1,25 @@
+What is an Array?
+ ->A collection of same type of elements stored in one variable
+
+Instead of:
+int a = 10, b = 20, c = 30;
+
+
+Use:
+int arr[] = {10, 20, 30};
+
+
+Declaration
+int arr[];
+
+
+Initialization
+Method 1:
+int arr[] = {1, 2, 3, 4};
+Method 2:
+int arr[] = new int[5]; // size = 5
+
+
+Access Elements
+Index starts from 0
+System.out.println(arr[0]); // first element
