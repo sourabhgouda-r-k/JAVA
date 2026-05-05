@@ -1,0 +1,39 @@
+What is a Method?
+ ->A block of code that performs a task and can be reused
+
+Syntax:
+returnType methodName(parameters){
+    // code
+}
+
+
+Example:
+static void greet(){
+    System.out.println("Hello");
+} 
+
+Calling method:
+greet();
+
+Types of Methods:
+  1. Without Return (void)
+    public void show(){
+    System.out.println("No return");
+    }
+
+  2. With Return 
+   static int add(int a, int b){
+    return a + b;
+   }
+
+
+Parameters & Arguments
+Parameters → variables in method
+Arguments → values passed
+
+Example: 
+static void printNum(int n){ // parameter
+    System.out.println(n);
+}
+
+printNum(10); // argument
