@@ -1,0 +1,51 @@
+What is a String in Java?
+-> A String is used to store text./ Sequence of Characters
+   Example: String name = "Sourabh";
+
+2 Methods to create Strings: 
+String name = "Java"; (comman Method) 
+
+String name = new String("Sourabh"); (Advanced Method)
+
+
+Difference Between the next() and nextLine()
+next(): Takes only one word.
+nextLine(): Takes full sentence.
+
+
+String Methods: 
+
+| Method        | Description                             | Syntax                         |
+| ------------- | --------------------------------------- | ------------------------------ |
+| length()      | Returns total number of characters      | str.length()                 |
+| charAt()      | Returns character at specific index     | str.charAt(2)                |
+| toUpperCase() | Converts string to uppercase            | str.toUpperCase()            |
+| toLowerCase() | Converts string to lowercase            | str.toLowerCase()            |
+| substring()   | Extracts part of string                 | str.substring(0,4)           |
+| equals()      | Compares string contents                | str1.equals(str2)            |
+| contains()    | Checks whether text exists in string    | str.contains("Java")         |
+| replace()     | Replaces characters or words            | str.replace("Java","Python") |
+| trim()        | Removes extra spaces from start and end | str.trim()                   |
+| indexOf()     | Finds position of character/word        | str.indexOf('a')             |
+
+String builders in Java: 
+ ->StringBuilder is used to create and modify strings efficiently.
+ ->Normally, Strings in Java are immutable.
+ ->That means once a string is created, it cannot be changed directly.
+
+Syntax: 
+StringBuilder name = new StringBuilder("Sourabh");
+
+String Builder Functions: 
+| Method         | Description                        | Syntax               |
+| ---------------| ---------------------------------- | ---------------------|
+| append()       | Adds text at end                   | sb.append("Java")    |
+| insert()       | Inserts text at specific position  | sb.insert(0,"Hi")    |
+| delete()       | Deletes characters between indexes | sb.delete(0,2)       |
+| deleteCharAt() | Deletes character at index         | sb.deleteCharAt(1)   |
+| reverse()      | Reverses string                    | sb.reverse()         |
+| replace()      | Replaces part of string            | sb.replace(0,2,"Hi") |
+| capacity()     | Returns current capacity           | sb.capacity()        |
+| length()       | Returns length                     | sb.length()          |
+| charAt()       | Returns character at index         | sb.charAt(2)         |
+| setCharAt()    | Changes character at index         | sb.setCharAt(0,'J')  |
